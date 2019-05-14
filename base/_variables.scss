@@ -1,0 +1,55 @@
+// VARIABLES =============================
+// =======================================
+
+// BASE COLORS
+// NOTE: do not use these outside of _variables
+$green:                         #31D57C;
+$blue:                          #00B8EB;
+$purple:                        #7C31F4;
+$yellow:                        #F5FF77;
+$orange:                        #FFA147;
+$red:                           #F5403A;
+
+$white:                         #FFFFFF;
+$black:                         #000000;
+$gray-dark:                     #2F3735;
+$gray-medium:                   #4F5350;
+$gray:                          #9F9F9D;
+$gray-light:                    #CBCDCD;
+$gray-xlight:                   #EEEFEF;
+
+
+// COLOR DECLARATIONS
+// NOTE: use these for application variables
+$color-background:              $white;
+$color-background-content:      $gray-xlight;
+
+$color-text-primary:            $gray-dark;
+$color-text-secondary:          $gray;
+$color-text-inverse-primary:    $white;
+$color-text-inverse-secondary:  $gray-light;
+$color-text-accent:             $green;
+$color-text-link:               $blue;
+
+$color-state-success:           $green;
+$color-state-neutral:           $blue;
+$color-state-warning:           $orange;
+$color-state-danger:            $red;
+$color-state-null:              $gray;
+
+$color-divider:                 mix($gray-medium, $white, 20%);
+$color-divider-inverse:         rgba($white, .1);
+
+$color-hover-overlay:           rgba($gray, .3);
+$color-hover-overlay-inverse:   rgba($gray-dark, .3);
+$color-hover-link:              mix($black, $color-text-link, 30%);
+$color-hover-link-inverse:      mix($white, $color-text-link, 40%);
+$color-hover-list:              mix($color-text-link, $white, 5%);
+
+
+// FONT DECLARATIONS
+$font-body:                     'Proxima Nova', Arial, sans-serif;
+$font-body-size:                14px;
+$font-body-weight:              400;
+
+$font-icon:                     'icomoon';
